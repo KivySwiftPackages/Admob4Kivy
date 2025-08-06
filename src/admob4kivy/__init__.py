@@ -1,7 +1,7 @@
 from api import PlatformAdmobAPI
 from backends import AdmobBackend #type: ignore
 
-class AdMobManager:
+class AdmobManager:
     def __init__(self, callback=None):
         self.platform_manager: PlatformAdmobAPI = AdmobBackend(callback)
 
