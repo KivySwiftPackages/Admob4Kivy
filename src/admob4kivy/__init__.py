@@ -1,5 +1,5 @@
-from api import PlatformAdmobAPI
-from backends import AdmobBackend #type: ignore
+from .api import PlatformAdmobAPI
+from .backends import AdmobBackend #type: ignore
 
 class AdmobManager:
     def __init__(self, callback=None):
